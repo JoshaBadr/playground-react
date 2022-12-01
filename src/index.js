@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Page from "./Page";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<h1>ReactJS Playground</h1>);
+root.render(<Page />);
